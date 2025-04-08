@@ -1,0 +1,60 @@
+# Obsidian 관련 설정 및 캐시 파일
+.obsidian/workspace
+.obsidian/workspace.json
+.obsidian/cache
+.obsidian/plugins/*
+!.obsidian/plugins/*/manifest.json
+.obsidian/app.json
+.obsidian/appearance.json
+.obsidian/hotkeys.json
+.obsidian/core-plugins-migration.json
+.obsidian/core-plugins.json
+.obsidian/graph.json
+.trash/
+
+# 로컬 워크플로우 관련 파일
+.DS_Store
+.idea/
+.vscode/
+
+# 백업 파일
+*.bak
+*.backup
+
+# 민감한 정보 포함 가능성이 있는 파일
+*.private.md
+private/
+secrets/
+credentials.md
+
+# 대용량 첨부 파일 (필요시 LFS 사용 권장)
+*.mp4
+*.mov
+*.avi
+*.wmv
+*.zip
+*.7z
+*.rar
+*.tar
+*.gz
+*.pdf
+
+# 임시 파일
+*.tmp
+tmp/
+temp/
+
+# 로컬 설정 파일 (사용자별로 다르게 설정해야 하는 파일)
+local-config.md
+local-settings.json
+
+# 개인 노트 (필요시 주석 처리)
+# personal/
+# personal-notes.md
+
+# 모바일 앱 관련 파일
+.mobile/
+
+# 동기화 충돌 파일
+*.sync-conflict*
+*conflict-files-obsidian-git*
